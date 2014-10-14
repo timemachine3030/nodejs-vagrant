@@ -14,7 +14,7 @@ Provisions a clean Ubuntu 12.04 32-bit server instance with all needed Node.js d
 
 ```
 mkdir DIR && cd DIR
-vagrant init cbumgard/nodejs
+vagrant init timemachine3030/nodejs-vagrant
 vagrant up
 vagrant ssh
 ```
@@ -26,7 +26,7 @@ For more see: [https://vagrantcloud.com/cbumgard/nodejs](https://vagrantcloud.co
 ## Setup Option 2: Vagrantfile
 
 ```
-git clone git@github.com:cbumgard/nodejs-vagrant.git
+git clone git@github.com:timemachine3030/nodejs-vagrant.git
 cd nodejs-vagrant
 vagrant up
 vagrant ssh
